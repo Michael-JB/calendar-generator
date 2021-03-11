@@ -8,7 +8,7 @@ from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Table, TableStyle
 
-MONTHS = list(calendar.month_name)[1:]
+MONTHS = calendar.month_name[1:]
 DAYS = [day[:2] for day in calendar.day_name]
 
 
