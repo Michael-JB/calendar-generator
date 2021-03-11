@@ -2,7 +2,6 @@ import argparse
 import calendar
 from datetime import datetime
 
-from reportlab.graphics.shapes import Drawing
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
