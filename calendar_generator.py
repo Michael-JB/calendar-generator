@@ -73,7 +73,9 @@ def generate_calendar(year, output_file):
     title_text = "Calendar " + str(year)
     title = Paragraph(title_text, title_style)
 
+    calendar_document.title = title_text
     calendar_document.build([title, table])
+
     print(f"Generated calendar for year {year}. Saved to {output_file}.")
 
 
